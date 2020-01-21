@@ -1,0 +1,33 @@
+.App-logo {
+  width: 300px;
+}
+
+.centerBlock{
+  display: table;
+  margin: auto;
+}
+
+
+#logoTIMELINE{
+  width: 50px;;
+}
+
+
+
+.buscarTimeline{
+  margin-left: 20px;
+}
+
+.columnPerfil{
+  background-color:rgb(50, 152, 220);
+}
+
+.titlePerfil{
+  text-align: center;
+}
+
+.figurePerfil img {
+  border: 6px solid #000000;
+} 
+
+
