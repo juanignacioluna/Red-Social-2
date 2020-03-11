@@ -41,8 +41,6 @@ router.get("/", (req, res) => {
             });
 
 
-            // const ahBo = await Tuit.find({arroba: session.otro}, null, {sort: {'_id': -1}});  //SELECT
-
             const ahBo = await Tuit.find({$or: [{arroba: session.otro, rtPOR: null}, {rtPOR: session.otro}  ]}, null, {sort: {'_id': -1}} )
                     .exec(function (err, docs) {
 
@@ -52,8 +50,6 @@ router.get("/", (req, res) => {
 
             });
 
-
-            // res.send(ahBo);
 
             
 
