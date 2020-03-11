@@ -63,8 +63,6 @@ app.use(session({
   }
 }));
 
-// session.arroba="das";
-
 
 app.post('/login', function (req, res) {
 
@@ -142,7 +140,6 @@ app.get('/sess', function (req, res) {
     console.log(session);
 }
 
-console.log("SSSSSSSSSSSSSSSSSSSSSSSSS");
 });
 
 app.post('/cerrar', function (req, res) {
