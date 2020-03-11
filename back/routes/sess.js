@@ -8,10 +8,10 @@ router.get("/", (req, res) => {
         console.log('req.session.arroba');
       } else {
         res.send(req.session); 
-        console.log("NAATI");
+        console.log("no");
     }
 
-    console.log("SSSSSSSSSSSSSSSSSSSSSSSSS");
+    console.log("s");
 
 });
 
