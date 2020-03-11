@@ -149,11 +149,7 @@ class Login extends React.Component {
                             </button>
                         </div>
                         <br/>
-                        {/* <div className="centerBlock">
-                            <button onClick={this.handleJUGAR} class="button is-warning">
-                            JUGAR CON MONGO
-                            </button>
-                        </div> */}
+                        
                         </p>
                         </div>
                         </form>
