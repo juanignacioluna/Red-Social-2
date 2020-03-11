@@ -59,26 +59,6 @@ class Perfil extends React.Component {
         
 
 
-
-
-
-        // axios.get('http://localhost:9000/getTuits')
-        // .then(function (response) {
-
-            
-        //     self.setState({
-      
-        //         tuits: response['data'],
-        //         cantidadTuits: response['data']['length']
-              
-        //       });
-
-
-
-
-        // })
-
-
         var self=this;
 
 
