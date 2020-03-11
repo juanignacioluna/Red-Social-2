@@ -4,8 +4,6 @@ var mongoose = require("mongoose");
 
 router.post("/", (req, res) => {
 
-    // var sess;
-
 
 
     (async () => {
@@ -44,8 +42,6 @@ router.post("/", (req, res) => {
             if(ahBo){
 
                 req.session.arroba = req.body.arroba;
-
-                // res.session.arroba =  req.body.arroba ;
                 
                 console.log("LOGUEAR A " + req.session.arroba);
 
